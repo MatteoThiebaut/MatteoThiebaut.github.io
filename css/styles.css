@@ -201,8 +201,13 @@ body {
 }
 
 @media (max-width: 992px) {
-  #sideNav {
-    width: 4rem;
+  @keyframes scroll {
+    from {
+      width: 100%;
+    }
+    to {
+      width: 4rem;
+    }
   }
   #sideNav .navbar-brand .img-profile {
     max-width: 1rem;
@@ -228,8 +233,13 @@ body {
 }
 
 @media (min-width: 992px) {
-  #sideNav {
-    width: 17rem;
+  @keyframes scroll {
+    from {
+      width: 100%;
+    }
+    to {
+      width: 17rem;
+    }
   }
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
@@ -279,14 +289,6 @@ body {
   animation-delay: 2s;
 }
 
-@keyframes scroll {
-  from {
-    width: 100%;
-  }
-  to {
-    width: 272px;
-  }
-}
 
 
 #sideNav {
