@@ -1,3 +1,2 @@
-# web-platform-yc2gxw
+# Site web recherche de stage 
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-yc2gxw)
