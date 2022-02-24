@@ -310,6 +310,8 @@ body {
 
 #sideNav .navbar-brand .img-profile {
   border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  width: 100%;
+  height: 100%;
 }
 
 #sideNav .navbar-collapse {
