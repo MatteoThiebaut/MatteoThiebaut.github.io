@@ -6,7 +6,6 @@
     <ExperiencesSection />
     <CompetenceSection />
     <LastestProjSection />
-    <ContactSection />
     <Footer />  
   </div>
 </template>
@@ -19,7 +18,6 @@ const FormationSection = defineAsyncComponent(() => import('@/components/Formati
 const ExperiencesSection = defineAsyncComponent(() => import('@/components/ExperienceSection.vue'));
 const CompetenceSection = defineAsyncComponent(() => import('@/components/CompetenceSection.vue'));
 const LastestProjSection = defineAsyncComponent(() => import('@/components/LatestProjSection.vue'));
-const ContactSection = defineAsyncComponent(() => import('@/components/ContactSection.vue'));
 const Footer = defineAsyncComponent(() => import('@/components/Footer.vue'));
 
 </script>
